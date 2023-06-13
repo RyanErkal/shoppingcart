@@ -1,0 +1,18 @@
+h1 {
+	color: red;
+	font-size: 50px;
+	text-align: center;
+}
+
+nav {
+	background-color: lightblue;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	padding: 10px;
+}

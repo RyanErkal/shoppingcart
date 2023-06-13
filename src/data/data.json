@@ -1,0 +1,80 @@
+{
+    "cpus" : [
+        {
+            "name" : "cpu1",
+            "type" : "x86",
+            "cores" : 2,
+            "clock" : 2.4,
+            "cache" : 4
+        },
+        {
+            "name" : "cpu2",
+            "type" : "x86",
+            "cores" : 6,
+            "clock" : 2.8,
+            "cache" : 8
+        },
+        {
+            "name" : "cpu3",
+            "type" : "x86",
+            "cores" : 8,
+            "clock" : 3.2,
+            "cache" : 12
+        },
+        {
+            "name" : "cpu4",
+            "type" : "x86",
+            "cores" : 12,
+            "clock" : 3.6,
+            "cache" : 16
+        }
+    ],
+    "gpus" : [
+        {
+            "name" : "gpu1",
+            "type" : "nvidia",
+            "cores" : 4,
+            "clock" : 2.4,
+            "memory" : 4
+        },
+        {
+            "name" : "gpu2",
+            "type" : "nvidia",
+            "cores" : 8,
+            "clock" : 3.6,
+            "memory" : 8
+        },
+        {
+            "name" : "gpu3",
+            "type" : "nvidia",
+            "cores" : 12,
+            "clock" : 4.2,
+            "memory" : 12
+        },
+        {
+            "name" : "gpu4",
+            "type" : "nvidia",
+            "cores" : 16,
+            "clock" : 4.8,
+            "memory" : 16
+        }
+    ],
+    "motherboards" : [
+        {
+            "name" : "motherboard1",
+            "type" : "asus"
+        },
+        {
+            "name" : "motherboard2",
+            "type" : "asus"
+        },
+        {
+            "name" : "motherboard3",
+            "type" : "asus"
+        },
+        {
+            "name" : "motherboard4",
+            "type" : "asus"
+        }
+    ]
+}
