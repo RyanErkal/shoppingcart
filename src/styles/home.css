@@ -16,3 +16,14 @@ nav {
 	z-index: 1;
 	padding: 10px;
 }
+
+.Shop-Products {
+	background-color: lightblue;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+	z-index: 1;
+	padding: 10px;
+}
