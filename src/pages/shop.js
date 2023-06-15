@@ -8,16 +8,32 @@ export default function Shop() {
 	const { id } = useParams();
 	console.log(data);
 
-	function DisplayProducts(props) {
+	function JSONProducts(props) {
 		if (props.props === "all") {
-			return JSON.stringify(data);
+			<DisplayAll />;
 		} else if (props.props === "cpu") {
-			return JSON.stringify(data.cpus);
+			<DisplayCpus />;
 		} else if (props.props === "gpu") {
-			return JSON.stringify(data.gpus);
+			<DisplayGpus />;
 		} else if (props.props === "motherboard") {
-			return JSON.stringify(data.motherboards);
+			<DisplayMotherboards />;
 		}
+	}
+
+	function DisplayAll() {
+		console.log(JSON.stringify(data));
+	}
+
+	function DisplayCpus() {
+		console.log(JSON.stringify(data.cpus));
+	}
+
+	function DisplayGpus() {
+		return <div className="gpu">GPUS</div>;
+	}
+
+	function DisplayMotherboards() {
+		console.log(JSON.stringify(data.motherboards));
 	}
 
 	return (
@@ -40,7 +56,7 @@ export default function Shop() {
 					</h3>
 				</div>
 				<div className="Products">
-					<DisplayProducts props={id} />
+					<JSONProducts props={id} />
 				</div>
 			</div>
 		</>
