@@ -6,21 +6,21 @@ import data from "../data/data.json";
 
 export default function Shop() {
 	const { id } = useParams();
-	console.log(data);
+	/* console.log(data); */
 
 	function JSONProducts(props) {
 		if (props.props === "all") {
-			<DisplayAll />;
+			return <div className="all">ALL</div>;
 		} else if (props.props === "cpu") {
-			<DisplayCpus />;
+			return <div className="cpu">CPUS</div>;
 		} else if (props.props === "gpu") {
-			<DisplayGpus />;
+			return <div className="gpu">GPUS</div>;
 		} else if (props.props === "motherboard") {
-			<DisplayMotherboards />;
+			return <div className="motherboard">MOTHERBOARDS</div>;
 		}
 	}
 
-	function DisplayAll() {
+	/* 	function DisplayAll() {
 		console.log(JSON.stringify(data));
 	}
 
@@ -34,7 +34,7 @@ export default function Shop() {
 
 	function DisplayMotherboards() {
 		console.log(JSON.stringify(data.motherboards));
-	}
+	} */
 
 	return (
 		<>
