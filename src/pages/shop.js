@@ -46,13 +46,13 @@ export default function Shop() {
 						<Link to="../shop/all">Shop All</Link>
 					</h3>
 					<h3>
-						<Link to="../shop/cpu">CPUs</Link>
+						<Link to="../shop/cpu">Shop CPUs</Link>
 					</h3>
 					<h3>
-						<Link to="../shop/gpu">GPUs</Link>
+						<Link to="../shop/gpu">Shop GPUs</Link>
 					</h3>
 					<h3>
-						<Link to="../shop/motherboard">Motherboards</Link>
+						<Link to="../shop/motherboard">Shop Motherboards</Link>
 					</h3>
 				</div>
 				<div className="Products">
